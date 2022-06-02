@@ -1,0 +1,1 @@
+for f in *; do mv -v "$f" "${f:3}"; done
